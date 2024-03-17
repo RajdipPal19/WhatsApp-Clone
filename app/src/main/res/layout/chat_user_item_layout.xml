@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    tools:context=".ui.ChatFragmentView">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_2"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/userImage"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/userImage"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UserName"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Rajdip Pal"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to Connect"
+            android:id="@+id/recentMsg"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

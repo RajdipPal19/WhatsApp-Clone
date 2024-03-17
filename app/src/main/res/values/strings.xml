@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhatsUp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nostatus">No Status were found</string>
+    <string name="NOcall">No Call logs</string>
+    <string name="Nochat">No messages yet</string>
+    <string name="numberHint">Enter Number</string>
+    <string name="HintOTP">Get OTP</string>
+    <string name="textNumber"></string>
+    <string name="OTPdisplay">Authentication progressing</string>
+    <string name="otpNotReceive">not receive yet?</string>
+</resources>

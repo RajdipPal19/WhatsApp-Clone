@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/whatsPrimary"
+    android:id="@+id/imageView4"
+    tools:context=".activity.NumberActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:text="Welcome to WhatsUp!!"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:text="Let's connect over the Internet"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/undraw_login_re_4vu2"/>
+
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="Enter your Number to Verify with an OTP"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+            android:layout_marginBottom="15dp"
+        android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="+91"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="17dp"-->
+<!--            android:textColor="@color/black"/>-->
+<!--            <EditText-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:id="@+id/phoneNumber"-->
+<!--                android:hint="-&#45;&#45;&#45;&#45; -&#45;&#45;&#45;&#45;"-->
+<!--                android:imeOptions="actionDone"-->
+<!--                android:inputType="number"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="17sp"-->
+<!--                android:textStyle="bold"/>-->
+        </LinearLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="267dp"
+                    android:id="@+id/phoneNumber"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/numberHint"
+                    android:textColorHint="@color/black"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_design"
+            android:text="Continue"
+            android:shadowColor="@color/black"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
+
